@@ -27,7 +27,7 @@ A beginner-friendly backend project using Node.js, Express, Mongoose, and MongoD
 3. In MongoDB Atlas, create a database user and allow your current IP address in the project's network access list. Copy the application's connection string and replace the placeholder values in `.env`. Keep `.env` private; it is excluded from Git.
 
    ```env
-   PORT=5000
+   PORT=5001
    MONGODB_URI=mongodb+srv://USERNAME:PASSWORD@YOUR_CLUSTER_HOST/product_api?retryWrites=true&w=majority
    ```
 
@@ -41,7 +41,7 @@ A beginner-friendly backend project using Node.js, Express, Mongoose, and MongoD
 
    With pnpm, run `pnpm dev`.
 
-   The API listens at `http://localhost:5000` after it connects to Atlas. Open `http://localhost:5000/api/health` to confirm the API and database are ready.
+   The API listens at `http://localhost:5001` after it connects to Atlas. Open `http://localhost:5001/api/health` to confirm the API and database are ready.
 
 ## API routes
 
